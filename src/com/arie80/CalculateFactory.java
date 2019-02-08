@@ -9,10 +9,10 @@ public class CalculateFactory {
 				obj = new Add();
 				break;
 			case "divide" :
-				obj = new divide();
+				obj = new Divide();
 				break;
 			case "substract" :
-				obj = new substract();
+				obj = new Substract();
 				break;
 			default:
 				break;

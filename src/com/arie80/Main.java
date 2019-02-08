@@ -14,7 +14,7 @@ public class Main {
 			System.out.println("Enter Second Number");
 			double num2 = input.nextDouble();
 
-			System.out.println("Choose calculation: add, devide, substract");
+			System.out.println("Choose calculation: add, divide, substract");
 
 			CalculateFactory factory = new CalculateFactory();
 			Calculate obj = factory.getCalculation(input.next());
